@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Погода</title>
+    <link rel="stylesheet" href="css.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        background: url('https://i.pinimg.com/originals/d6/ae/14/d6ae147e644e4b22cf80cd12318ac656.png') no-repeat center center fixed;
+        background-size: cover;}
+</style>
+    <div class="container">
+        <div class="image-container">
+            <img src="" alt="" srcset="" id="weather-icon">
+        </div>
+        <div id="location">Введите город и нажмите Enter</div>
+        <div class="desc">Информация отсутствует</div>
+        <div class="weather">
+            <div class="c">Error</div>
+            <div class="circle"></div>
+            <div class="f">Error</div>
+        </div>
+        <div class="info">
+            <h4>Влажность : <span class="humidity">Информация отсутствует</span></h4>
+            <h4>Скорость ветра: <span class="windspeed">Информация отсутствует</span></h4>
+            <h4>Восход солнца : <span class="sunrise">Информация отсутствует</span></h4>
+            <h4>Закат солнца  : <span class="sunset">Информация отсутствует</span></h4>
+        </div>
+        <input type="text" id="city-input" placeholder="Введите город">
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
