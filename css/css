@@ -1,0 +1,79 @@
+body {
+    font-family: 'Lora', serif;
+    background-color: #4d85d1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+}
+.container {
+    max-width: 800px;
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85); 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+#weather-icon {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    margin-top: 0px;
+}
+.image-container {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    display: inline-block; 
+    border-radius: 5px;
+}
+.desc {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+.weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c, .f {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 10px;
+    color: #333;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+}
+.info {
+    margin-top: 20px;
+    text-align: left;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #333;
+}
+input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#location {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
